@@ -1,13 +1,14 @@
 from typing import Union
 
 from templates import FEW_SHOT_MLCLF_PROMPT_TEMPLATE
+from templates import ZERO_SHOT_MLCLF_PROMPT_TEMPLATE
+
 from skllm.prompts.templates import (
     FEW_SHOT_CLF_PROMPT_TEMPLATE,
     FOCUSED_SUMMARY_PROMPT_TEMPLATE,
     SUMMARY_PROMPT_TEMPLATE,
     TRANSLATION_PROMPT_TEMPLATE,
     ZERO_SHOT_CLF_PROMPT_TEMPLATE,
-    ZERO_SHOT_MLCLF_PROMPT_TEMPLATE,
 )
 
 # TODO add validators
