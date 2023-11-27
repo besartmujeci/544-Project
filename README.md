@@ -16,3 +16,5 @@ pip install scikit-llm
 ## Additional Files
 **PdfScrapper folder:** Contains the code that was used to scrape the PDF files, extract the relevant incident information, and save the extracted paragraphs as CSV file
 
+**LERs folder:** Contains all the 250 LERs collected from the three power plants (Diablo Canyon, Davis-Besse, and South Texas)
+
