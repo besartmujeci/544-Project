@@ -7,6 +7,9 @@ pip install scikit-llm
 ```
 
 ## Description of Jupyter Files
-**1. All_Models.ipynb:** Includes all models analyzed (Zero-shot, Few-shot, and Random Classifier) \n
-**2. Evaluation.ipynb:** Presents evaluation of all models analyzed + true/predicted trait counts visualization. \n
-**3. All_LERs.ipynb:** Uses the best model to predict the traits for all 250 LERs + histogram visualization of trait counts by power plant \n
+**1. All_Models.ipynb:** Includes all models analyzed (Zero-shot, Few-shot, and Random Classifier)
+
+**2. Evaluation.ipynb:** Presents evaluation of all models analyzed + true/predicted trait counts visualization.
+
+**3. All_LERs.ipynb:** Uses the best model to predict the traits for all 250 LERs + histogram visualization of trait counts by power plant
+
