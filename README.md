@@ -15,3 +15,4 @@ pip install scikit-llm
 
 ## Additional Files
 **PdfScrapper folder:** Contains the code that was used to scrape the PDF files, extract the relevant incident information, and save the extracted paragraphs as CSV file
+
