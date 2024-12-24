@@ -95,7 +95,7 @@ class MultiLabelFewShotGPTClassifier(_BaseZeroShotGPTClassifier):
         openai_org: Optional[str] = None,
         openai_model: str = "gpt-3.5-turbo",
         default_label: Optional[Union[List[str], Literal["Random"]]] = "Random",
-        max_labels: int = 3,
+        max_labels: int = 4,
     ):
         super().__init__(openai_key, openai_org, openai_model, default_label)
         if max_labels < 2:
@@ -119,7 +119,7 @@ class MultiLabelFewShotGPTClassifier(_BaseZeroShotGPTClassifier):
         for l in y:
             for j in l:
                 labels.append(j)
-        return labels
+        return sorted(labels)
 
     def fit(
         self,
